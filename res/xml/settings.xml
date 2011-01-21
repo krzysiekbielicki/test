@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="main" xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceScreen android:title="@string/manageAlerts" android:key="manage_alerts"/>
+	<PreferenceScreen android:title="@string/settings_widgetSettings_title" android:key="widget">
+		<PreferenceCategory android:title="@string/settings_widgetSettings_stop1"></PreferenceCategory><ListPreference android:key="stop1" android:title="@string/settings_widgetSettings_stop" /><EditTextPreference android:key="stop1Name" android:title="@string/settings_widgetSettings_name" />
+		<PreferenceCategory android:title="@string/settings_widgetSettings_stop2"></PreferenceCategory><ListPreference android:key="stop2" android:title="@string/settings_widgetSettings_stop" /><EditTextPreference android:key="stop2Name" android:title="@string/settings_widgetSettings_name" />
+		<PreferenceCategory android:title="@string/settings_widgetSettings_stop3"></PreferenceCategory><ListPreference android:key="stop3" android:title="@string/settings_widgetSettings_stop" /><EditTextPreference android:key="stop3Name" android:title="@string/settings_widgetSettings_name" />
+	</PreferenceScreen>
+	<Preference android:key="syncZiL" android:title="@string/syncZespolyILinie" />
+	<Preference android:key="syncTimetables" android:title="@string/updateAllTimetables" />
+	<ListPreference android:key="SortMyStopsBy" android:entries="@array/sortMyStopsBy" android:entryValues="@array/sortMyStopsByValues" android:defaultValue="0" android:title="@string/favouritesSorting"/>
+	<EditTextPreference android:key="fastRoutingTimeSpan" android:summary="@string/fastRoutingInSummary" android:title="@string/fastRoutingIn" android:inputType="number"/>
+	<pl.skyman.autobuser.AlarmPreference android:ringtoneType="alarm" android:key="reminderRingtone" android:title="@string/reminderRingtone" android:showSilent="false" android:showDefault="false"/>
+	<Preference android:key="cleanSearches" android:title="@string/settings_cleanSearchHistory_title"/>
+	<Preference android:key="cleanRoutes" android:title="@string/settings_cleanRouteHistory_title"/>
+</PreferenceScreen>

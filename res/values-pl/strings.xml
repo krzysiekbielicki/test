@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Autobuser</string>
+    <string name="noDeparturesToday">dziś nie kursuje</string>
+	<string name="addMyStopSearchboxHint">Linia lub przystanek</string>
+	<string name="syncZespolyILinie">Synchronizuj zespoły i linie</string>
+	<string name="deleteMyStop">Usuń z listy</string>
+	<string name="PTimetable">powszedni</string>
+	<string name="STimetable">świąteczny</string>
+	<string name="noTimetableForSelectedDay">Brak rozkładu dla tego dnia!</string>
+	<string name="checkSecondTimetable">Dziś obowiązuje drugi rozkład</string>
+	<string name="repeat">Powtarzaj</string>
+	<string name="noRepeatSpecialTimetable">Powtarzanie wyłączone - rozkład specjalny</string>
+	<string name="dismiss">Zamknij</string>
+	<string name="snooze">Drzemka</string>
+	<string name="deleteAlert">Usuń przypomnienie</string>
+	<string name="departureIn">Odjazd za:</string>
+	<string name="syncingZiL">Trwa synchronizowanie listy przystanków i linii\nProszę o cierpliwość</string>
+	<string name="updatingTimetables">Trwa aktualizacja rozkładów</string>
+	<string name="noNetwork">Brak połączenia z siecią!</string>
+	<string name="gettingStopData">Trwa pobieranie szczegółów przystanku</string>
+	<string name="gettingTimetableData">Trwa pobieranie rozkladów</string>
+	<string name="findingZiL">Trwa odnajdywanie rozkładu</string>
+	<string name="reminder">Przypomnienie!</string>
+	<string name="reminderMessageFormat">O %1$s odjeżdża %2$s z przystanku %3$s</string>
+	
+	<string name="noStopData">Nie mogę dodać przystanku!\nBrak danych dla wybranego przystanku!</string>
+	<string name="noLineData">Wybrana linia ma niekompletne dane, nie mogę wyświetlić!</string>
+	<string name="stopAddedToList">Przystanek został dodany do listy ulubionych</string>
+	<string name="stopDeletedFromList">Przystanek został usunięty z listy ulubionych</string>
+	<string name="doYouReallyWantToDeleteStopFromFavList">Czy na pewno chcesz usunąć przystanek z listy ulubionych?</string>
+	
+	<string name="every1">Każdy</string>
+	<string name="every2">Każda</string>
+	<string name="remindBefore">na %s minut przed</string>
+	<string name="SnoozeDialog.XMinutes">%d minut</string>
+	<string name="AlarmWillRingAt">Powiadomienie ustawione na %s</string>
+	<string name="Snooze.RepeatAlarmIn">Powtórz alarm przed odjazdem</string>
+	<string name="syncZiLquestion">Czy zsynchronizować listę przystanków i linii?</string>
+	<string name="updateTimetablesQuestion">Ostatnia pełna aktualizacja rozkładów odbyła się więcej niż dwa tygodnie temu, rozkłady mogą być nieaktualne.\nCzy chcesz wykonać aktualizację?</string>
+	<string name="showLocationSettingsquestion">GPS jest wyłączony! Czy chcesz otworzyć ustawienia?</string>
+	<string name="alertsListEmpty">Nie ustawiono żadnych przypomnień</string>
+	<string name="nameCannotBeEmpty">Pole \"Nazwa\" nie może być puste!</string>
+	
+	<string name="schedule">Rozkład</string>
+	<!-- MainMenu -->
+	<string name="help">Pomoc</string>
+	<string name="manageAlerts">Przypomnienia</string>
+	<string name="directions">Połączenie</string>
+	<string name="settings">Ustawienia</string>
+	<string name="search">Rozkład</string>
+	<string name="favourites">Ulubione</string>
+	<string name="setReminder">Ustaw przypomnienie</string>
+	
+	<!-- Global -->
+	<string name="never">Nigdy</string>
+	<string name="in">Na</string>
+	<string name="minutes_before_departure">minut przed odjazdem</string>
+	<string name="on_next">W najbliższy</string>
+	
+	<string name="add">Dodaj</string>
+	<string name="yes">Tak</string>
+	<string name="no">Nie</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Anuluj</string>
+	<string name="emptyList">Lista jest pusta!</string>
+	<string name="stop">przystanek</string>
+	<string name="address">adres</string>
+	<string name="records">%s rekordów</string>
+	<string name="to">do %s</string>
+	<!-- Settings -->
+	<string name="updateAllTimetables">Aktualizuj wszystkie rozkłady</string>
+	<string name="lastUpdate">Ostatnia pełna aktualizacja: </string>
+	<string name="settings_cleanSearchHistory_title">Wyczyść historię wyszukiwań</string>
+	<string name="settings_cleanRouteHistory_title">Wyczyść historię połączeń</string>
+	<string name="settings_widgetSettings_title">Ustawienia Widgetu</string>
+	<string name="settings_widgetSettings_stop1">1 Przystanek</string>
+	<string name="settings_widgetSettings_stop2">2 Przystanek</string>
+	<string name="settings_widgetSettings_stop3">3 Przystanek</string>
+	<string name="settings_widgetSettings_name">Przyjazna nazwa</string>
+	<string name="settings_widgetSettings_stop">Przystanek</string>
+	<string name="fastRoutingIn">Szybki odjazd za</string>
+	<string name="fastRoutingInSummary">Czas w minutach do początku trasy z \"Ulubionych\"</string>
+	<string name="favouritesSorting">Sortowanie \"Ulubionych\"</string>
+	<string name="reminderRingtone">Dźwięk przypomnienia</string>
+	<!-- Search -->
+	<string name="searchHistory">Historia wyszukiwania</string>
+	<!-- setDestination -->
+	<string name="setDestination.title">Ustaw cel</string>
+	<string name="setDestination.textHint">Podaj cel - kontakt, przystanek, adres lub współrzędne</string>
+	<string name="setDestination.spinnerHint">lub wybierz z Moich miejsc</string>
+	<!-- setRoute -->
+	<string name="routeHistory">Historia połączeń</string>
+	<string name="setRoute.From.hint">Z</string>
+	<string name="setRoute.To.hint">Do</string>
+	<string name="historyEmpty">Historia jest pusta</string>
+	<string name="setRoute">Wybierz punkty trasy</string>
+	<string name="findRoute">Szukaj</string>
+	<string name="swapDirections">Zamień kierunki</string>
+	<string name="gpsPosition">Pozycja GPS</string>
+	<string name="contacts">Kontakty</string>
+	<string name="typeContactName">Wpisz nazwę kontaktu</string>
+	<!-- Directions -->
+	<string name="gettingDirections">Szukam najlepszej trasy</string>
+	<string name="directionrecord.walk">idź <b>%sm</b> w linii prostej</string>
+	<string name="directionrecord.geton">o <b>%s</b> wsiądź w</string>
+	<string name="directionrecord.change">o <b>%s</b> przesiądź się w</string>
+	<string name="directionrecord.getoff">o <b>%s</b> wysiądź</string>
+	<string name="directionrecord.end">Jesteś u celu</string>
+	<string name="directionrecord.underground1"><b>metro</b>, kierunek <b>%s</b>, %d stacja</string>
+	<string name="directionrecord.underground234"><b>metro</b>, kierunek <b>%s</b>, %d stacje</string>
+	<string name="directionrecord.underground5up"><b>metro</b>, kierunek <b>%s</b>, %d stacji</string>
+	<string name="directionsNotFound">Nie znaleziono trasy!</string>
+	<string name="fromTo">Z %1$s do %2$s</string>
+	<string name="departureAt">Odjazd o %1$s</string>
+	<string name="departuresFrom">Odjazdy od %1$s</string>
+	<string name="arrivalsTo">Dojazdy do %1$s</string>
+	
+	<!-- Timetable -->
+	<string name="addToFavourites">Dodaj do ulubionych</string>
+	<string name="deleteFromFavourites">Usuń z ulubionych</string>
+	<string name="lineRoute">Trasa %s</string>
+	<string name="group">Zespół %s</string>
+	<string name="seeOnMap">Pokaż na mapie</string>
+	<string name="showNotes">Pokaż przypisy</string>
+	<string name="updateTimetable">Aktualizuj rozkłady</string>
+	<!-- Search -->
+	<string name="line">Linia %s</string>
+	
+	<!-- Map -->
+	<string name="map">Mapa</string>
+	<!-- Favourites -->
+	<string name="myStops">Moje Rozkłady</string>
+	<string name="fromGpsToMyPlace">Jedź z aktualnej pozycji do:</string>
+	<!-- MyPlace -->
+	<string name="myPlaces">My places</string>
+	<string name="placeNameHint">Nazwa</string>
+	<string name="placeValueHint">Przystanek, adres lub współrzędne</string>
+	<string name="favMaxExceeded">W ulubionych może się pokazywać makstymalnie 5 elementów!</string>
+	<!-- Widget -->
+	<string name="widgetNotSet">Ustaw widget: Autobuser -> Ustawienia -> Ustawienia Widgetu</string>
+	<string name="widget2NotSet">Dotknij ikony, żeby ustawić widget</string>
+	<string name="widgetName">Nazwa widgetu</string>
+	
+	<string name="ZILcheckUpdate">Nie mozna pobrać listy przystanków i linii. Sprawdź czy masz zainstalowaną najnowszą wersję Autobusera lub skantaktuj się z autobuser@skyman.pl</string>
+	<string name="sendEmailToDeveloper">Wyślij email do twórcy</string>
+	<string name="sendEmailToDeveloperSubject">Aplikacja Autobuser</string>
+	<string name="sendEmailToDeveloperText"></string>
+	<string name="sendBugReport">Wyślij informację o błędzie</string>
+	<string name="sendBugReportSubject">Autobuser - informacja o błędzie</string>
+	<string name="sendBugReportText">Jak doszło do błędu:\n\nCo się stało:\n\n</string>
+	
+	<string name="help1">Aplikacja stworzona przez\n<b>Krzyśka Bielickiego</b>\n   http://skyman.pl\n<b>Współpraca z chłopakami z</b>\n   http://autobuser.pl\n<b>Beta-testy</b> by Artur, Krzysiek, Michał, Thomas, b3wolf, bebe, programmer5, Mrówa, WoofeR, glock45, pablo</string>
+	<string name="help2"><b>Jak wyszukać połączenie?</b>\nNaciśnij <i>MENU</i> i wybierz <i>Połączenie</i> w polu <i>Z</i> wpisz lokalizację początkową (przystanek, adres lub nazwę kontaktu), możesz też skorzystać z przycisku <i>zakładki</i>; w pole <i>Do</i> wpisz cel swojej podróży.\nMozesz wstawić dokładną godzinę rozpoczęcia lub zakończenia podróży za pomocą list wyboru.\nMożesz również wypełnić pola danymi z poprzedniego połączączenia wybierając je z listy <i>Historia połączeń</i>. Naciśnij <i>Szukaj</i></string>
+	<string name="help3"><b>Jak wyszukać rozkład?</b>\nNaciśnij <i>MENU</i> i wybierz <i>Rozkład</i> w polu <i>Linia lub przystanek</i> wpisz nazwę linii lub przystanku albo wybierz nazwę z <i>Historii wyszukiwania</i>. Teraz wybierz interesujący Cię kierunek.</string>
+	<string name="help4"><b>Jak dodać/usunąć rozkład do/z ulubionych?</b>\nW widoku rozkładu naciśnij po prawej stronie przycisk <i>Więcej</i> i wybierz <i>Dodaj do ulubionych</i>/<i>Usuń z ulubionych</i>, teraz rozkład będzie dostepny offline (Żeby go zaktualizować wybierz <i>Więcej</i>-><i>Aktualizuj rozkłady</i>).</string>
+	<string name="help5"><b>Jak dodać przypomnienie?</b>\nW widoku rozkładu jazdy naciśnij godzinę odjazdu. Wybierz czas przypomnienia i dzień tygodnia, zaznacz czy program ma przypominać co tydzień.</string>
+	<string name="help6"><b>Jak usunąć przypomnienie?</b>\nNaciśnij <i>MENU</i> i wybierz <i>Ustawienia</i>-><i>Przypomnienia</i> przytrzymaj przypomnienie które chcesz usunąć i wybierz <i>Usuń przypomnienie</i></string>
+	<string name="help7"><b>Jak ustwić widget v1?</b>\nNaciśnij <i>MENU</i> i wybierz <i>Ustawienia</i>-><i>Ustawienia Widgetu</i>\nŻeby dodać rozkład do widgetu trzeba wcześniej dodać go do ulubionych!\nW widgetcie pojawiają się tylko rozkłady, które mają niepustą <i>Przyjazną nazwę</i></string>
+	<string name="help8"><b>Jak ustwić widget v2?</b>\nNaciścnij ikonę widgetu i wybierz rozkłady, które mają się na nim wyswietlać. Mozesz ustawić <i>Nazwę widgetu</i> która będzie wyświetlana w nagłówku.</string>
+	<string name="help9"><b>jak używać szybkiego wyszukiwania?</b>\nW Androidzie >= 1.6 Możesz używać androida w Szybkim Wyszukiwaniu (musisz włączyć <i>Ustawienia->Szukaj->Wyszukiwane elementy->Autobuser</i>). Gdy nacisniesz przycisk wyszukiwania i wpiszesz początek nazwy przystanku lub linii i dotkniesz podpowiedzi, zobaczysz wyniki wyszukiwania w Autobuserze. Jeśli rozpoczniesz frazę wyszukiwania od "z" lub "do" a nastepnie wpiszesz nazwę przystanku, adres lub nazwę kontaktu zobaczysz trasę dojazdu z/do danego miejsca.</string>
+	<!-- QSB -->
+	<string name="routeTo">Prowadź do %s</string>
+	<string name="routeFrom">Prowadź z %s</string>
+	<string name="routeFromTo">Prowadź z %1$s do %2$s</string>
+	<string name="QrouteTo">do %s</string>
+	<string name="QrouteFrom">z %s</string>
+	<string name="QrouteFromTo">z %1$s do %2$s</string>
+	
+	<string name="defaultSort">Według nazwy</string>
+</resources>

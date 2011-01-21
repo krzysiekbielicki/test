@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<AutoCompleteTextView android:layout_height="wrap_content" android:selectAllOnFocus="true" android:hint="@+string/addMyStopSearchboxHint" android:layout_width="fill_parent" android:id="@+id/atv" android:layout_weight="1" android:imeOptions="actionSearch"/>
+		<ImageButton android:id="@+id/search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_search_category_default"/>
+	</LinearLayout>
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/searchHistory" android:gravity="center_vertical" android:background="@android:drawable/title_bar" android:textColor="#eee"/>
+	<ListView android:id="@+id/history" android:layout_height="fill_parent" android:layout_width="fill_parent"/>
+	<TextView android:id="@+id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/historyEmpty" android:gravity="center"/>
+</LinearLayout>

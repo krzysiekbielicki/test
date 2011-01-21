@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Query URL's -->
+    <string name="syncZespolyILinieURL">http://autobuser.pl/js/warszawa/nazwy_zespolow_i_linii.js</string>
+	<string name="queryAutobuserApiQ">http://autobuser.pl/autobuser_api.php?q=</string>
+	<string name="queryAutobuserApiZ">http://autobuser.pl/autobuser_api.php?z=</string>
+	<string name="queryPolaczenia">"http://autobuser.pl/polaczenia.php?start=%1$s&amp;stop=%2$s&amp;minuty=%3$d&amp;swiateczny=%4$d&amp;odjazdprzyjazd=%5$s"</string>
+	
+    <string name="app_name">Autobuser</string>
+    <string name="noDeparturesToday">No departures today</string>
+	<string name="addMyStopSearchboxHint">Line or stop name</string>
+	<string name="syncZespolyILinie">Sync stops and lines</string>
+	<string name="deleteMyStop">Remove from list</string>
+	<string name="PTimetable">normal</string>
+	<string name="STimetable">holiday</string>
+	<string name="noTimetableForSelectedDay">No timetable for current day!</string>
+	<string name="checkSecondTimetable">Check second timetable</string>
+	<string name="repeat">Repeat</string>
+	<string name="noRepeatSpecialTimetable">Repeating is off - special timetable</string>
+	<string name="dismiss">Dismiss</string>
+	<string name="snooze">Snooze</string>
+	<string name="manageAlerts">Reminders</string>
+	<string name="settings">Preferences</string>
+	<string name="directions">Directions</string>
+	<string name="deleteAlert">Remove reminder</string>
+	<string name="departureIn">Departure in:</string>
+	<string name="syncingZiL">Syncing \"stops and lines\" list\nPlease be patient</string>
+	<string name="updatingTimetables">Updating timetables</string>
+	<string name="noNetwork">No network connection!</string>
+	<string name="gettingStopData">Getting stop data</string>
+	<string name="gettingTimetableData">Getting timetables</string>
+	<string name="findingZiL">Searching...</string>
+	<string name="reminder">Reminder!</string>
+	<string name="reminderMessageFormat">At %1$s %2$s departs %3$s stop</string>
+	
+	<string name="noStopData">No stop data cannot add!</string>
+	<string name="noLineData">No line data, searching error!</string>
+	<string name="stopAddedToList">Stop sucessfully added to favourites list</string>
+	<string name="doYouReallyWantToDeleteStopFromFavList">Do you really want to delete stop from favourites list?</string>
+	<string name="stopDeletedFromList">Stop was deleted from list</string>
+	
+	<string name="every1">Every</string>
+	<string name="every2">Every</string>
+	<string name="remindBefore">in %s minutes before</string>
+	<string name="SnoozeDialog.XMinutes">%d minutes</string>
+	<string name="AlarmWillRingAt">Alarm will ring at %s</string>
+	<string name="Snooze.RepeatAlarmIn">Repeat alarm before departure</string>
+	<string name="syncZiLquestion">Do you want to sync list of stops and lines?</string>
+	<string name="updateTimetablesQuestion">Last full update was more than two weeks ago.\nDo you want to perform full update?</string>
+	<string name="showLocationSettingsquestion">GPS is not enabled! Do You want fix that in System Settings?</string>
+	<string name="alertsListEmpty">List empty</string>
+	<string name="nameCannotBeEmpty">\"Name\" field cannot be empty!</string>
+	
+	<string name="schedule">Timetable</string>
+	<string name="setReminder">Set reminder</string>
+	
+	<!-- MainMenu -->
+	<string name="help">Help</string>
+	<string name="search">Timetable</string>
+	<string name="favourites">Favourites</string>
+	<!-- Global -->
+	<string name="never">Never</string>
+	<string name="in">In</string>
+	<string name="minutes_before_departure">minutes before departure</string>
+	<string name="on_next">On</string>
+	<string name="add">Add</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="emptyList">List is empty!</string>
+	<string name="stop">stop </string>
+	<string name="address">address </string>
+	<string name="records">%s records</string>
+	<string name="to">to %s</string>
+	<!-- Settings -->
+	<string name="updateAllTimetables">Update all timetables</string>
+	<string name="lastUpdate">Last full update: </string>
+	<string name="settings_cleanSearchHistory_title">Clear search history</string>
+	<string name="settings_cleanRouteHistory_title">Clear route history</string>
+	<string name="settings_widgetSettings_title">Widget Settings</string>
+	<string name="settings_widgetSettings_stop1">Stop 1</string>
+	<string name="settings_widgetSettings_stop2">Stop 2</string>
+	<string name="settings_widgetSettings_stop3">Stop 3</string>
+	<string name="settings_widgetSettings_name">Friendly name</string>
+	<string name="settings_widgetSettings_stop">Stop</string>
+	<string name="fastRoutingIn">Fast route in</string>
+	<string name="fastRoutingInSummary">Time in minutes to begin of \"Favourite\" route</string>
+	<string name="favouritesSorting">\"Favourites\" sorting</string>
+	<string name="reminderRingtone">Reminder ringtone</string>
+	<string name="database">Database</string>
+	<string name="dbToSdCard">Copy database to SD card</string>
+	<string name="dbToPhone">Copy database to phone memory</string>
+	<string name="sdCardNotMounted">SD card not mounted</string>
+	<string name="error">Error!</string>
+	<string name="dbCopiedSuccesfully">DB copied succesfully</string>
+	
+	<!-- Search -->
+	<string name="searchHistory">Search history</string>
+	<string name="searchBox">Search</string>
+	<!-- setDestination -->
+	<string name="setDestination.title">Set destination</string>
+	<!-- setRoute -->
+	<string name="routeHistory">Route history</string>
+	<string name="setRoute.From.hint">From</string>
+	<string name="setRoute.To.hint">To</string>
+	<string name="historyEmpty">History is empty</string>
+	<string name="findRoute">Search</string>
+	<string name="swapDirections">Swap directions</string>
+	<string name="gpsPosition">GPS position</string>
+	<string name="contacts">Contacts</string>
+	<string name="typeContactName">Type contact name</string>
+	<!-- Directions -->
+	<string name="gettingDirections">Getting directions</string>
+	<string name="directionrecord.walk">walk %sm</string>
+	<string name="directionrecord.geton">at %s get on</string>
+	<string name="directionrecord.change">at %s change to</string>
+	<string name="directionrecord.getoff">at <b>%s</b> get off</string>
+	<string name="directionrecord.end">Reaching destination</string>
+	<string name="directionrecord.underground1">underground, direction <b>%s</b>, %d stations</string>
+	<string name="directionrecord.underground234">underground, direction <b>%s</b>, %d stations</string>
+	<string name="directionrecord.underground5up">underground, direction <b>%s</b>, %d stations</string>
+	<string name="directionsNotFound">Directions not found!</string>
+	<string name="setRoute">Set route points</string>
+	<string name="fromTo">From %1$s to %2$s</string>
+	<string name="departureAt">Departure at %1$s</string>
+	<string name="departuresFrom">Departures from %1$s</string>
+	<string name="arrivalsTo">Arrivals to %1$s</string>
+	<!-- Timetable -->
+	<string name="addToFavourites">Add to favourites</string>
+	<string name="deleteFromFavourites">Remove from favourites</string>
+	<string name="lineRoute">Route %s</string>
+	<string name="group">%s group</string>
+	<string name="seeOnMap">Show on map</string>
+	<string name="updateTimetable">Update timetables</string>
+	<string name="showNotes">Show keys</string>
+	<!-- Search -->
+	<string name="line">Line %s</string>
+	<!-- Map -->
+	<string name="map">Map</string>
+	<!-- Favourites -->
+	<string name="myStops">My stops</string>
+	<string name="fromGpsToMyPlace">Route from current location to</string>
+	<!-- MyPlace -->
+	<string name="myPlaces">My places</string>
+	<string name="placeNameHint">Name</string>
+	<string name="placeValueHint">Stop name, address or coordinates</string>
+	<string name="favMaxExceeded">Only 5 elements can be shown on favourites list!</string>
+	<!-- Widget -->
+	<string name="widgetNotSet">Go to: Autobuser -> Settings -> Widget settings</string>
+	<string name="widget2NotSet">Touch icon to set widget</string>
+	<string name="widgetName">Widget name</string>
+	<!-- Help -->
+	<string name="ZILcheckUpdate">Cannot download list of stops and lines. Check if you have newest version of Autobuser installed or contact me at autobuser@skyman.pl</string>
+	<string name="sendEmailToDeveloper">Email developer</string>
+	<string name="sendEmailToDeveloperSubject">Autobuser application</string>
+	<string name="sendEmailToDeveloperText"></string>
+	<string name="sendBugReport">Send bug report</string>
+	<string name="sendBugReportSubject">Autobuser - bug report</string>
+	<string name="sendBugReportText">Steps to reproduce:\n\nWhat\'s wrong:\n\n</string>
+	<string name="help1">This application was created by\n<b>Krzysiek Bielicki</b> http://skyman.pl\n<b>In cooperation with guys from</b>\n http://autobuser.pl\nBeta-tests by Artur, Krzysiek, Michał, Thomas, b3wolf, bebe, programmer5, Mrówa, WoofeR, glock45, pablo</string>
+	<string name="help2"><b>How to find connection?</b>\nPress <i>MENU</i> and select <i>Directions</i> in <i>From</i> field insert start location (stop address or contact name), you can also use <i>bookmarks</i> button; in <i>To</i> field insert travel destination.\nYou can insert exact begin/end time of the journey using spinners.\nYou can also insert data from your previous searches from <i>Route history</i>. Press <i>Search</i></string>
+	<string name="help3"><b>How to find timetable?</b>\nPress <i>MENU</i> and select <i>Timetable</i> in <i>Line or stop name</i> field insert line name, stop name or select one from <i>Search history</i>. Now select direction.</string>
+	<string name="help4"><b>How do add/remove timetable to/from favourites?</b>\nIn timetable view press button in top-right edge <i>More</i> and select <i>Add to favourites</i>/<i>Remove from favourites</i>, now timetable will be available offline (to perform an update press <i>More</i>-><i>Update timetables</i>).</string>
+	<string name="help5"><b>How to add reminder?</b>\nIn timetable view press departure time. Select reminder time and day of week, check if you want to be reminded weekly.</string>
+	<string name="help6"><b>How to remove reminder?</b>\Press <i>MENU</i> and select <i>Preferences</i>-><i>Reminders</i> long-press reminder you want to remove and select <i>Remove reminder</i></string>
+	<string name="help7"><b>How to set widget v1?</b>\Press <i>MENU</i> and select <i>Preferences</i>-><i>Widget Settings</i>\nIf you want do add timetable to widget it must be already added to favourites!\nOnly timetables having non empty <i>Friendly name</i> will be visible in widget</string>
+	<string name="help8"><b>How to set widget v2?</b>\Press widget icon and select timetables that will be displayed in widget, you can also set <i>Widget name</i> which will be displayed as header.</string>
+	<string name="help9"><b>How to use fast search?</b>\In Android >= 1.6 you can use Autobuser in Quick Search Box (you must enable it in <i>Settings->Search-></i>). When you press search button and type part of stop or line name and touch suggestion you will see search results in Autobuser. When you start typing from "from" or "to" and stop name, address or contact name you will see directions to/from there.</string>
+	<!-- QSB -->
+	<string name="routeTo">Route to %s</string>
+	<string name="routeFrom">Route from %s</string>
+	<string name="routeFromTo">Route from %1$s to %2$s</string>
+	<string name="QrouteTo">to %s</string>
+	<string name="QrouteFrom">from %s</string>
+	<string name="QrouteFromTo">from %1$s to %2$s</string>
+</resources>

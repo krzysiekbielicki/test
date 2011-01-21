@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="pl.skyman.autobuser"
+      android:versionCode="33"
+      xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    	<uses-library android:name="com.google.android.maps" />
+        <activity android:name=".Autobuser" android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation"><!-- android:theme="@style/StopsListTheme"> --> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.VOICE_LAUNCH"/>
+			</intent-filter>
+			<intent-filter>
+			    <action android:name="android.intent.action.SEARCH" />
+			    <category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			<meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />            
+        </activity>
+        <receiver android:name=".AutobuserAlarmReceiver" android:process=":alarmPrivateProcess">
+			<intent-filter>
+				<action android:name="pl.skyman.autobuser.ACTION_AUTOBUSER_ALARM" />
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="android.intent.action.TIME_SET" />
+				<action android:name="android.intent.action.TIMEZONE_CHANGED" />
+			</intent-filter>
+		</receiver>
+		<!-- Broadcast Receiver that will process AppWidget updates -->
+        <receiver android:name=".MultiStop" android:label="Autobuser v1">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_ticker" />
+        </receiver><!---->
+        <receiver android:name=".MultiLineWidget" android:label="Autobuser v2">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget2_ticker" />
+        </receiver>
+		
+		<activity android:name=".Favourites" android:label="@string/favourites" android:configChanges="keyboard|keyboardHidden|orientation">
+			<meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+		</activity>
+    	<activity android:name=".TimetableActivity" android:label="@string/schedule" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<activity android:name=".ManageAlerts" android:label="@string/manageAlerts" android:configChanges="keyboard|keyboardHidden|orientation">
+    		<intent-filter>
+    			<action android:name="MANAGE_ALERTS"></action>
+			</intent-filter>
+		</activity>
+		<!-- Settings -->
+		<activity android:name=".Settings" android:label="@string/settings" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<activity android:name=".Search" android:label="@string/search" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<activity android:name=".SearchForm" android:label="@string/search" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<activity android:name=".Route" android:label="@string/directions" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<activity android:name=".RouteForm" android:label="@string/directions" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<activity android:name=".AutobuserMap" android:label="@string/directions" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<activity android:name=".MyPlace" android:label="@string/directions" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<activity android:name=".Help" android:label="@string/directions" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<activity android:name=".MultiLineWidgetSettings" android:label="@string/settings" android:configChanges="keyboard|keyboardHidden|orientation" android:launchMode="singleTask" android:process=":alarmPrivateProcess"/>
+		<activity android:screenOrientation="nosensor" android:label="@string/reminder" android:launchMode="singleTask" android:taskAffinity=":AutobuserAlert" android:name="AutobuserAlert" android:theme="@android:style/Theme.Dialog" android:excludeFromRecents="true"></activity>
+		<service android:name=".Widget2ReceiverUpdateService" />
+		<provider android:name="AutobuserQSBProvider" android:authorities="autobuser" android:syncable="false" />
+		<provider android:name="DatabaseProvider" android:authorities="pl.skyman.autobuser.timetableprovider" />
+</application>
+    <uses-sdk android:minSdkVersion="3"/>
+    
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+
+<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+<uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+
+<supports-screens android:resizeable="true" android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="false"></supports-screens>
+</manifest> 

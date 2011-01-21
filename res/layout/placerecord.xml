@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <ImageButton android:id="@+id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/btn_star_big_off" android:padding="10dip" android:background="@android:drawable/list_selector_background"/>
+	<LinearLayout android:id="@+id/header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:layout_weight="1" android:gravity="center_vertical" android:background="@android:drawable/list_selector_background" android:focusable="true">
+		<TextView android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:textStyle="bold"/>
+		<TextView android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1"/>
+	</LinearLayout>
+</LinearLayout>

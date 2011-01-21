@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+        android:label=""
+        android:searchSettingsDescription="@string/app_name"
+		android:includeInGlobalSearch="true"
+        android:searchSuggestAuthority="autobuser"
+        android:queryAfterZeroResults="true"
+        android:searchSuggestIntentAction="android.intent.action.VIEW"/>

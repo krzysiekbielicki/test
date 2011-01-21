@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:orientation="horizontal" android:layout_height="60px" android:id="@+id/header">
+	<pl.skyman.autobuser.GeoView android:id="@+id/geo" android:layout_width="60px" android:layout_height="60px"/>
+	<LinearLayout android:orientation="vertical" android:layout_weight="3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:id="@+id/title" android:layout_width="fill_parent" android:layout_gravity="left" android:textStyle="bold" android:layout_weight="3" android:layout_height="wrap_content" android:singleLine="true" android:ellipsize="end"/>
+		<View android:layout_width="2dip" android:layout_weight="1" android:layout_gravity="fill_vertical" android:layout_height="2dip"/>
+		<TextView android:id="@+id/departures" android:layout_weight="3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="left" android:singleLine="true"/>
+	</LinearLayout>
+	<ImageButton android:id="@+id/button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:visibility="gone" android:src="@drawable/more"/>
+</LinearLayout>

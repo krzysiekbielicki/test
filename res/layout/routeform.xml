@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent">
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<AutoCompleteTextView android:layout_height="wrap_content" android:hint="@string/setRoute.From.hint" android:id="@+id/setRoute.From.text" android:layout_weight="1" android:layout_width="fill_parent" android:singleLine="true"/>
+			<ImageButton android:id="@+id/setRoute.from" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@android:drawable/ic_input_get"/>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<AutoCompleteTextView android:layout_height="wrap_content" android:hint="@string/setRoute.To.hint" android:id="@+id/setRoute.To.text" android:layout_weight="1" android:layout_width="fill_parent" android:singleLine="true" />
+			<ImageButton android:id="@+id/setRoute.to" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@android:drawable/ic_input_get"/>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_vertical">
+		<Spinner android:id="@+id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		<Button android:id="@+id/time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:background="@android:drawable/btn_dropdown"/>
+		<Button android:id="@+id/setRoute.ok" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/findRoute"/>
+	</LinearLayout>
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/routeHistory" android:gravity="center_vertical" android:background="@android:drawable/title_bar" android:textColor="#eee" />
+	<ListView android:id="@+id/history" android:layout_height="fill_parent" android:layout_width="fill_parent"/>
+	<TextView android:id="@+id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/historyEmpty" android:gravity="center"/>
+</LinearLayout>

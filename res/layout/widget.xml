@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/widget_bg2">
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/stops" android:orientation="vertical" android:paddingLeft="3dip">
+		<TextView android:id="@+id/stop1.name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textStyle="bold" android:textColor="@android:color/primary_text_light" android:ellipsize="end"/>
+		<TextView android:id="@+id/stop1.data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="right" android:textColor="@android:color/primary_text_light"/>
+		<TextView android:id="@+id/stop2.name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textStyle="bold" android:textColor="@android:color/primary_text_light" android:ellipsize="end"/>
+		<TextView android:id="@+id/stop2.data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="right" android:textColor="@android:color/primary_text_light"/>
+		<TextView android:id="@+id/stop3.name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textStyle="bold" android:textColor="@android:color/primary_text_light" android:ellipsize="end"/>
+		<TextView android:id="@+id/stop3.data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="right" android:textColor="@android:color/primary_text_light"/>
+	</LinearLayout>
+	<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:visibility="gone" android:gravity="center" android:id="@+id/mesage" android:textColor="@android:color/primary_text_light"/>
+</LinearLayout>

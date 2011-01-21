@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:padding="5dip">
+		<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon" android:id="@+id/h1" android:layout_marginRight="5dip"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help1" android:id="@+id/h1a" android:layout_toRightOf="@id/h1" android:autoLink="all" android:textColor="#fff"/>
+		
+		<LinearLayout android:layout_below="@id/h1a" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:gravity="center">
+			<Button android:id="@+id/email" android:text="@string/sendEmailToDeveloper" android:layout_height="fill_parent" android:layout_width="wrap_content"/>
+			<Button android:id="@+id/reportBug" android:text="@string/sendBugReport" android:layout_height="fill_parent" android:layout_width="wrap_content"/>
+		</LinearLayout>
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:id="@+id/d1" android:layout_below="@id/LinearLayout01" android:layout_marginRight="5dip"/>
+		<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_directions" android:id="@+id/h2" android:layout_below="@id/d1" android:layout_marginRight="5dip"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help2" android:id="@+id/h2a" android:layout_toRightOf="@id/h2" android:layout_alignTop="@id/h2" android:autoLink="all" android:textColor="#fff"/>
+ 		
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:id="@+id/d2" android:layout_below="@id/h2a" android:layout_marginRight="5dip"/>
+		<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_today" android:id="@+id/h3" android:layout_below="@id/d2" android:layout_marginRight="5dip"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help3" android:id="@+id/h3a" android:layout_toRightOf="@id/h3" android:layout_alignTop="@id/h3" android:autoLink="all" android:textColor="#fff"/>
+
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:id="@+id/d3" android:layout_below="@id/h3a" android:layout_marginRight="5dip"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help4" android:id="@+id/h4a" android:layout_below="@id/d3" android:layout_alignLeft="@id/h3a" android:autoLink="all" android:textColor="#fff"/>
+		
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:id="@+id/d4" android:layout_below="@id/h4a" android:layout_marginRight="5dip"/>
+		<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_reminder" android:id="@+id/h5" android:layout_below="@id/d4" android:layout_marginRight="5dip"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help5" android:id="@+id/h5a" android:layout_toRightOf="@id/h5" android:layout_alignTop="@id/h5" android:autoLink="all" android:textColor="#fff"/>
+		
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:id="@+id/d5" android:layout_below="@id/h5a" android:layout_marginRight="5dip"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help6" android:id="@+id/h6a" android:layout_below="@id/d5" android:layout_alignLeft="@id/h5a" android:autoLink="all" android:textColor="#fff"/>
+		
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:id="@+id/d6" android:layout_below="@id/h6a" android:layout_marginRight="5dip"/>
+		<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_home" android:id="@+id/h7" android:layout_below="@id/d6" android:layout_marginRight="5dip"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help7" android:id="@+id/h7a" android:layout_toRightOf="@id/h7" android:layout_alignTop="@id/h7" android:autoLink="all" android:textColor="#fff"/>
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:id="@+id/d7" android:layout_below="@id/h7a" android:layout_marginRight="5dip"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help8" android:id="@+id/h8a" android:layout_below="@id/d7" android:layout_alignLeft="@id/h6a" android:autoLink="all" android:textColor="#fff"/>
+		
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:id="@+id/d8" android:layout_below="@id/h8a" android:layout_marginRight="5dip"/>
+		<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_search" android:id="@+id/h9" android:layout_below="@id/d8" android:layout_marginRight="5dip"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help9" android:id="@+id/h9a" android:layout_toRightOf="@id/h9" android:layout_alignTop="@id/h9" android:autoLink="all" android:textColor="#fff"/>
+	</RelativeLayout>
+</ScrollView>

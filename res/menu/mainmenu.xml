@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/mainmenu.settings" android:title="@string/settings" android:icon="@android:drawable/ic_menu_preferences"/>
+<item android:id="@+id/mainmenu.help" android:title="@string/help" android:icon="@android:drawable/ic_menu_help"/>
+<item android:id="@+id/mainmenu.favorites" android:title="@string/favourites" android:icon="@android:drawable/ic_menu_myplaces"/>
+<item android:id="@+id/mainmenu.search" android:title="@string/search"  android:icon="@android:drawable/ic_menu_today"/>
+<item android:id="@+id/mainmenu.directions" android:title="@string/directions" android:icon="@android:drawable/ic_menu_directions"/>
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:gravity="center" android:id="@+id/header" android:paddingBottom="5dip">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/fromTo" />
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/departure" />
+	</LinearLayout>
+	<ListView android:id="@+id/android:list" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scrollingCache="true"/>
+	<TextView android:id="@id/android:empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/directionsNotFound" android:gravity="center"/>
+</LinearLayout>
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:layout_height="wrap_content" android:id="@+id/AlertItem.FromTo" android:layout_width="fill_parent" android:gravity="center"></TextView>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:id="@+id/AlertItem.Linia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold"></TextView>
+		<View android:layout_width="2dip" android:layout_height="2dip" android:layout_gravity="fill_horizontal" android:layout_weight="1"/>
+		<TextView android:id="@+id/AlertItem.Departure" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:id="@+id/AlertItem.DayRepeat" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<View android:layout_width="2dip" android:layout_height="2dip" android:layout_gravity="fill_horizontal" android:layout_weight="1"/>
+		<TextView android:id="@+id/AlertItem.Before" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+</LinearLayout>

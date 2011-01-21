@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="12pt" android:gravity="center" android:id="@+id/AlarmText"></TextView>
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+<Button android:layout_height="wrap_content" android:text="@string/dismiss" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_weight="3" android:id="@+id/AutobuserAlertDismiss"></Button>
+<View android:layout_width="2dip" android:layout_height="2dip" android:layout_gravity="fill_horizontal" android:layout_weight="1"/>
+<Button android:text="@string/snooze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="3" android:id="@+id/AutobuserAlertSnooze"></Button>
+</LinearLayout>
+</LinearLayout>
